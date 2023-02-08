@@ -5,7 +5,7 @@ body {
 
 .banner {
   /* width: 100%; */
-  background-image: url("images/tim-foster-osDUe-m4ZcY-unsplash.jpg")  ;
+  background-image: url("https://images.unsplash.com/photo-1595960684234-49d2a004e753?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=380&q=80")  ;
   /* padding: 40px 100px; */
   background-size: cover;
   color: white;
