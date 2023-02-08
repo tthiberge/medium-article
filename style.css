@@ -1,0 +1,68 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(67, 67, 67)
+}
+
+.banner {
+  /* width: 100%; */
+  background-image: url("images/tim-foster-osDUe-m4ZcY-unsplash.jpg")  ;
+  /* padding: 40px 100px; */
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkmagenta;
+  transition: 0.3s;
+}
+
+#text-white {
+  color: white
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
